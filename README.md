@@ -77,25 +77,30 @@ To run the scripts in this repository, the following are required:
 ## Steps to Run the Project
 
 ### Step 1: Clone the repository
+```bash
 
 git clone https://github.com/somvanshi24mim10169/oss-audit-24mim10169.git
+```
 
 ### Step 2: Navigate to the project directory
+```bash
 
 cd oss-audit-24mim10169
-
+```
 ### Step 3: Make all scripts executable
+```bash
 
 chmod +x *.sh
-
+```
 ### Step 4: Execute the scripts
+```bash
 
 ./sys_report.sh  
 ./pkg_inspector.sh  
 ./disk_auditor.sh  
 ./log_analyzer.sh test.log error  
 ./manifesto_gen.sh  
-
+```
 Note: Some scripts may require elevated permissions depending on the system configuration.
 
 ---
